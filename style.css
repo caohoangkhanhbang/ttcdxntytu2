@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-top: 70px;
+    --wide: 1200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Thêm font đã tải về */
+@font-face {
+    font-family: 'Cal Sans';
+    src: url('resource/font/Cal_Sans/CalSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Flex";
+    src: url('resource/font/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf') format('truetype');
+}
+
+.wide {
+    width: var(--wide);
+    margin: auto;
+}
+
+
+body {
+    /* font-family: "Segoe UI", "Helvetica Neue", sans-serif; */
+    font-family: "Cal Sans";
+    font-weight: thin;
+}
+
+
+ul li {
+    list-style-type: none;
+    color: black;
+}
+
+.menu-home {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.menu-right {
+    flex: 1;
+}
+
+.menu {
+    height: var(--header-top);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.banner {
+    margin-top: var(--header-top);
+    width: 100%;
+    height: 472px;
+    background: linear-gradient(90deg, #006eff, #00ff9a);
+}
+
+.name {
+    display: flex;
+}
+
+.name-right-middle {
+    font-size: 25px;
+    color: #ef0021;
+}
+
+.name-right-top {
+    color: #fca204;
+    font-size: 22px;
+}
+
+.name-right {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.menu-top {
+    width: var(--wide);
+}
+
+.menu-wide {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+.footer-text-style {
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Roboto Flex';
+    font-weight: 100;
+}
+
+.address-module {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #233f67;
+    color: white;
+    height: 300px;
+    padding: 20px 0px 20px;
+}
+
+.footer-content {
+    width: 90%;
+    margin: auto;
+}
+
+.fa-solid {
+    font-size: 12px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.address-ncvdn2 {
+    padding: 0 10px 0;
+}
+
+.footer {
+    position: relative;
+}
+
+.gradient-box {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, rgb(0, 255, 149), rgb(0, 234, 255));
+}
