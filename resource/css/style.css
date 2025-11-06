@@ -10,7 +10,7 @@ a {
 
 :root {
     --header-top: 70px;
-    --wide: 90vw;
+    /* --wide: 90vw; */
     --font-bold: 'Cal Sans';
     --font-thin: 'Roboto Flex';
     --height-tin-moi: 720px;
@@ -38,12 +38,12 @@ a {
 /* Thêm font đã tải về */
 @font-face {
     font-family: 'Cal Sans';
-    src: url('resource/font/Cal_Sans/CalSans-Regular.ttf') format('truetype');
+    src: url('../font/Cal_Sans/CalSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Roboto Flex";
-    src: url('resource/font/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf') format('truetype');
+    src: url('../font/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf') format('truetype');
 }
 
 .wide {
@@ -104,7 +104,7 @@ ul {
     height: var(--header-top);
     display: flex;
     align-items: center;
-    width: var(--wide);
+    /* width: var(--wide); */
     margin: auto;
     border-radius: 100px;
     background: linear-gradient(45deg, #e9f0f1cf, #006bff30);
@@ -113,10 +113,11 @@ ul {
     backdrop-filter: blur(40px);
     z-index: 10;
     top: 10px;
+    padding: 0 10px;
 }
 
 .logo-left {
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .logo-ncvd {
@@ -137,13 +138,13 @@ ul {
     background-size: contain;
     background-repeat: no-repeat; */
 
-    margin-top: 47px;
+    margin-top: 97px;
     width: 100%;
     height: 472px;
-    background: url(./resource/images/anhthunghiem.png), linear-gradient(90deg, #006eff, #00ff9a);
+    background: url('../images/anhthunghiem.png'), linear-gradient(90deg, #006eff, #00ff9a);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
     background-origin: content-box;
 
 }
@@ -198,18 +199,13 @@ ul {
     padding: 20px 0px 20px;
 }
 
-.footer-content {
-    width: 90%;
-    margin: auto;
-}
+
 
 .fa-solid {
     font-size: 12px;
 }
 
-.footer-content {
-    display: flex;
-}
+
 
 .address-ncvdn2 {
     padding: 0 10px 0;
@@ -255,7 +251,6 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 15%;
     height: 156px;
     box-shadow: 1px 1px 5px #919191;
     border-radius: 10px;
@@ -305,11 +300,10 @@ ul {
 
 .featured-activities-box {
     border-radius: 5px;
-    width: 25%;
     box-shadow: 0px 0px 8px -3px;
     margin: 0 10px 0;
     display: block;
-    max-width: 426px;
+    width: 322px;
     margin: 10px;
     flex-shrink: 0;
 }
@@ -342,9 +336,8 @@ ul {
 .layout-grid {
     display: flex;
     align-items: center;
-    justify-content: center;
     overflow-x: scroll;
-    padding: 20px 40px 20px;
+    padding: 20px 0 20px;
 }
 
 .style-text-capacity {
@@ -360,15 +353,19 @@ ul {
     height: var(--height-tin-moi);
 }
 
+
+
 .news-style {
     width: 430px;
-    height: 658px;
+    height: 645px;
     box-shadow: 1px 1px 11px -7px;
     border-radius: 10px;
     padding: 20px;
     position: relative;
     flex-shrink: 0;
     margin: 10px;
+    backdrop-filter: blur(25px);
+    overflow: hidden;
 }
 
 .news-image-style {
@@ -376,6 +373,26 @@ ul {
     height: 309px;
     object-fit: cover;
     border-radius: 30px;
+}
+
+.news-style:hover .news-image-style {
+    transform: scale(1.05);
+    transition: all .3s linear;
+}
+
+.news-style:hover {
+    box-shadow: 1px 1px 20px -7px;
+}
+
+.news-right-item:hover {
+    background: linear-gradient(45deg, #000000e8, #69006da3);
+    color: white
+}
+
+.container-image-news {
+    border-radius: 30px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .news-title {
@@ -419,17 +436,18 @@ ul {
     padding: 20px 10px;
     overflow-y: scroll;
     height: var(--height-tin-moi);
+    flex-direction: column;
+
 }
 
 .news-right-item {
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
     box-shadow: 1px 1px 9px -5px;
     padding: 10px;
     display: flex;
     align-items: center;
     text-align: justify;
-    /* background: linear-gradient(45deg, #ffffff, #fee4ff); */
     backdrop-filter: blur(25px);
     color: black;
     margin: 10px 0;
@@ -503,9 +521,7 @@ ul {
     border: 1px solid white;
 }
 
-.map-iframe {
-    width: var(--max-width);
-}
+
 
 .partner-container-scroll {
     width: var(--max-width);
@@ -566,6 +582,33 @@ ul {
     font-size: var(--font-size-title);
 }
 
+.kbcenter-x {
+    display: flex;
+    justify-content: center;
+}
+
+.kbcenter-y {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.footer-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.kbcontainer {
+    display: flex;
+    align-items: center;
+}
 
 /* animation */
 @keyframes troi-chay {

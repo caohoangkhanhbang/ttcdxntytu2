@@ -11,7 +11,9 @@
 
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" -->
     <!-- integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/base.css">
+    <link rel="stylesheet" href="./resource/css/responsive.css">
 
 </head>
 
@@ -72,7 +74,7 @@
 
 
 
-        <div class="featured-activities wide-standard">
+        <div class="featured-activities  grid wide"> <!-- wide-standard -->
             <div class="title-capacity">
                 <p>Hoạt động nổi bật</p>
             </div>
@@ -187,17 +189,19 @@
         <!-- Ảnh minh họa hoạt động -->
 
         <!-- Chuẩn bị -->
-        <div class="wide-standard">
+        <div class="grid wide">
             <div class="title-capacity">Tin tức mới nhất</div>
 
-            <div class="wide-standard">
+            <div class="row"> <!-- wide-standard -->
                 <div class="news-container">
                     <div class="news-left-container">
                         <!-- Có tính lặp lại -->
                         <div class="news-style">
-                            <img class="news-image-style"
-                                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1078728-What_sNew-03-416x312?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=858&qlt=100&fit=constrain"
-                                alt="">
+                            <div class="container-image-news">
+                                <img class="news-image-style"
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1078728-What_sNew-03-416x312?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=858&qlt=100&fit=constrain"
+                                    alt="">
+                            </div>
                             <div class="news-title">Đại hội Chi bộ Trung tâm Kiểm tra vệ sinh thú y Trung ương II, nhiệm
                                 kỳ
                                 2025 - 2027</div>
@@ -213,9 +217,11 @@
                         </div>
 
                         <div class="news-style">
-                            <img class="news-image-style"
-                                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1078728-What_sNew-03-416x312?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=858&qlt=100&fit=constrain"
-                                alt="">
+                            <div class="container-image-news">
+                                <img class="news-image-style"
+                                    src="https://cdxntw2.com.vn/upload/images/2025/03/600x450-1741060746-single_news4-74d7881d9c4cda31b06dfd76c0.jpg"
+                                    alt="">
+                            </div>
                             <div class="news-title">Đại hội Chi bộ Trung tâm Kiểm tra vệ sinh thú y Trung ương II, nhiệm
                                 kỳ
                                 2025 - 2027</div>
@@ -231,9 +237,31 @@
                         </div>
 
                         <div class="news-style">
-                            <img class="news-image-style"
-                                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1078728-What_sNew-03-416x312?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=858&qlt=100&fit=constrain"
-                                alt="">
+                            <div class="container-image-news">
+                                <img class="news-image-style"
+                                    src="https://cdxntw2.com.vn/upload/images/2025/05/600x450-1747109027-single_news4-e1cc53a973c47c98e0c906578f.jpg"
+                                    alt="">
+                            </div>
+                            <div class="news-title">Đại hội Chi bộ Trung tâm Kiểm tra vệ sinh thú y Trung ương II, nhiệm
+                                kỳ
+                                2025 - 2027</div>
+                            <div class="news-content">Đại hội Chi bộ Trung tâm Kiểm tra vệ sinh thú y Trung ương II,
+                                nhiệm
+                                kỳ 2025 - 2027</div>
+
+                            <div class="news-time-container">
+                                <div class="news-categori">Tin từ trung tâm</div>
+                                <div class="news-time">04/11/2025</div>
+                            </div>
+                            <a href="#" class="news-handle remove-style-a">Tìm hiểu thêm</a>
+                        </div>
+
+                        <div class="news-style">
+                            <div class="container-image-news">
+                                <img class="news-image-style"
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1078728-What_sNew-03-416x312?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=858&qlt=100&fit=constrain"
+                                    alt="">
+                            </div>
                             <div class="news-title">Đại hội Chi bộ Trung tâm Kiểm tra vệ sinh thú y Trung ương II, nhiệm
                                 kỳ
                                 2025 - 2027</div>
@@ -383,59 +411,81 @@
         </div>
 
 
-        <div class="capacity wide-standard">
-            <div class="title-capacity">
+        <div class="grid wide"> <!-- capacity wide-standard -->
+            <div class="title-capacity row">
                 <p>Năng lực phân tích - xét nghiệm</p>
             </div>
-            <div class="capacity-detail">
+            <div class="capacity-detail row">
 
                 <!-- Có tính lặp lại -->
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Tồn dư kim loại nặng</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Tồn dư kim loại nặng</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Tồn dư kháng sinh</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Tồn dư kháng sinh</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Tồn dư các chất cấm và thuốc bảo vệ thực vật</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Tồn dư các chất cấm và thuốc bảo vệ thực vật</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Tồn dư các chỉ tiêu vi sinh vật, nấm mốc trong thực phẩm</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Tồn dư các chỉ tiêu vi sinh vật, nấm mốc trong thực
+                            phẩm</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Tồn dư các chỉ tiêu trong thức ăn chăn nuôi, trong thức ăn thủy
-                        sản</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Tồn dư các chỉ tiêu trong thức ăn chăn nuôi, trong thức ăn
+                            thủy
+                            sản</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Kiểm tra, xét nghiệm và đánh giá về điều kiện vệ sinh thú y trong
-                        chăn nuôi và thủy sản</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Kiểm tra, xét nghiệm và đánh giá về điều kiện vệ sinh thú y
+                            trong
+                            chăn nuôi và thủy sản</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Kiểm tra, xét nghiệm và đánh giá nước thải, nước dùng</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Kiểm tra, xét nghiệm và đánh giá nước thải, nước dùng</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
-                    <span class="style-text-capacity">Kiểm tra, xét nghiệm và đánh giá về môi trường và không khí trong
-                        chăn nuôi và thủy sản</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-triangle-exclamation icon-capacity"></i>
+                        <span class="style-text-capacity">Kiểm tra, xét nghiệm và đánh giá về môi trường và không khí
+                            trong
+                            chăn nuôi và thủy sản</span>
+                    </div>
                 </a>
 
-                <a class="capacity-item remove-style-a" href="#">
-                    <i class="fa-solid fa-circle-check icon-capacity"></i>
-                    <span class="style-text-capacity">Cấp xét nghiệm, phân tích và cấp giấy xét nghiệm</span>
+                <a class="remove-style-a l-2 m-2 c-6" href="#">
+                    <div class="capacity-item">
+                        <i class="fa-solid fa-circle-check icon-capacity"></i>
+                        <span class="style-text-capacity">Cấp xét nghiệm, phân tích và cấp giấy xét nghiệm</span>
+                    </div>
                 </a>
 
 
@@ -450,7 +500,7 @@
             <div class="kbcenter partner-title-container">
                 <h1 class="partner-title">Đối tác của chúng tôi</h1>
             </div>
-            <div class="partner-container">
+            <div class="partner-container grid">
 
                 <div class="partner-container-scroll">
                     <div class="partner-box">
@@ -565,7 +615,7 @@
             </h1>
         </div>
         <div class="map-container">
-            <iframe class="map-iframe"
+            <iframe class="grid"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15984.765590201778!2d106.6697357713945!3d10.794649095477697!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529005de75ba7%3A0xafd1963d8ddc780e!2zVHJ1bmcgdMOibSBDaOG6qW4gxJFvw6FuIHbDoCBYw6l0IG5naGnhu4dtIFRow7ogeSBUcnVuZyDGsMahbmcgSUk!5e1!3m2!1svi!2s!4v1762305074724!5m2!1svi!2s"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -575,140 +625,277 @@
 
     </div>
 
-    <div class="footer">
-        <div class="gradient-box"></div>
-        <div class="footer-content">
-            <div class="address-ncvdn2">
-                <div class="address-module">
-                    <i class="fa-solid fa-location-dot"></i> <span class="footer-text-style">Trụ sở chính: 521/1 Hoàng
-                        Văn
-                        Thụ, Phường Tân Sơn Nhất, TP. Hồ Chí
-                        Minh</span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-phone-volume"></i>
-                    <span class="footer-text-style">
-                        Điện thoại: 028 66858963 - 028
-                        66536522
-                    </span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span class="footer-text-style">
-                        Email: cdxntw2@gmail.com
-                    </span>
-                </div>
-                <div class="address-module">
-                    <i class="fa-solid fa-globe"></i>
-                    <span class="footer-text-style">
-                        Website: <a class="remove-style-a" href="">https://cdxntw2.com.vn</a>
-                    </span>
-                </div>
-                <div class="address-module">
-                    <i class="fa-solid fa-phone"></i>
-                    <span class="footer-text-style">
-                        Liên hệ: Ms Hằng - 0909 054 567
-                    </span>
-                </div>
+    <!-- footer -->
+    <div class="kbcontainer kbcenter">
+        <div class="address-ncvdn2">
+            <div class="address-module">
+                <i class="fa-solid fa-location-dot"></i> <span class="footer-text-style">Trụ sở chính: 521/1
+                    Hoàng
+                    Văn
+                    Thụ, Phường Tân Sơn Nhất, TP. Hồ Chí
+                    Minh</span>
             </div>
 
-
-
-            <!-- trạm 1 -->
-
-            <div class="address-ncvdn2">
-                <div class="address-module">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span class="footer-text-style">Trạm Chẩn đoán và xét nghiệm I: Số 12 Trần Quý Cáp, phường
-                        Hải Châu, TP. Đà Nẵng</span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-phone-volume"></i>
-                    <span class="footer-text-style">
-                        Liên hệ: Mr Hùng - 0762 626 375
-                    </span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span class="footer-text-style">
-                        Email: tramcdxn1.ncvd2@gmail.com
-                    </span>
-                </div>
+            <div class="address-module">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span class="footer-text-style">
+                    Điện thoại: 028 66858963 - 028
+                    66536522
+                </span>
             </div>
 
-            <!-- Trạm 2 -->
+            <div class="address-module">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="footer-text-style">
+                    Email: cdxntw2@gmail.com
+                </span>
+            </div>
+            <div class="address-module">
+                <i class="fa-solid fa-globe"></i>
+                <span class="footer-text-style">
+                    Website: <a class="remove-style-a" href="">https://cdxntw2.com.vn</a>
+                </span>
+            </div>
+            <div class="address-module">
+                <i class="fa-solid fa-phone"></i>
+                <span class="footer-text-style">
+                    Liên hệ: Ms Hằng - 0909 054 567
+                </span>
+            </div>
+        </div>
 
+        <!-- trạm 1 -->
 
-
-
-            <div class="address-ncvdn2">
-                <div class="address-module">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span class="footer-text-style">Trạm chẩn đoán và xét nghiệm II
-                        Số 36 Phạm Hùng, phường Tân An,
-                        tỉnh Đắk Lắk</span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-phone-volume"></i>
-                    <span class="footer-text-style">
-                        Liên hệ: Mr Hùng - 0374 779 779
-                    </span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span class="footer-text-style">
-                        Email: tram02ncvd2@gmail.com
-                    </span>
-                </div>
+        <div class="address-ncvdn2 col l-3 m-4 c-12">
+            <div class="address-module">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="footer-text-style">Trạm Chẩn đoán và xét nghiệm I: Số 12 Trần Quý Cáp, phường
+                    Hải Châu, TP. Đà Nẵng</span>
             </div>
 
-            <!-- Trạm 3 -->
-
-
-
-
-            <div class="address-ncvdn2">
-                <div class="address-module">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span class="footer-text-style">Trạm chẩn đoán và xét nghiệm III
-                        Số 88 CMT8, phường Bình Thủy, TP. Cần Thơ</span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-phone-volume"></i>
-                    <span class="footer-text-style">
-                        Email: cdxn3ncvd2@gmail.com
-                    </span>
-                </div>
-
-                <div class="address-module">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span class="footer-text-style">
-                        Liên hệ: Mr An - 0907 817 771
-                    </span>
-                </div>
+            <div class="address-module">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span class="footer-text-style">
+                    Liên hệ: Mr Hùng - 0762 626 375
+                </span>
             </div>
 
+            <div class="address-module">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="footer-text-style">
+                    Email: tramcdxn1.ncvd2@gmail.com
+                </span>
+            </div>
+        </div>
 
-            <!-- Liên hệ các trang mạng xã hội -->
+        <!-- Trạm 2 -->
 
-            <a class="social-media-item" target="_blank"
-                href="https://www.facebook.com/profile.php?id=100066977236195#"><i
-                    class="fa-brands fa-square-facebook"></i>
 
-                <span class="social-media-item-text">Facebook</span>
-            </a>
 
-            <i class="fa-brands fa-youtube"></i>
+
+        <div class="address-ncvdn2 col l-3 m-4 c-12">
+            <div class="address-module">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="footer-text-style">Trạm chẩn đoán và xét nghiệm II
+                    Số 36 Phạm Hùng, phường Tân An,
+                    tỉnh Đắk Lắk</span>
+            </div>
+
+            <div class="address-module">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span class="footer-text-style">
+                    Liên hệ: Mr Hùng - 0374 779 779
+                </span>
+            </div>
+
+            <div class="address-module">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="footer-text-style">
+                    Email: tram02ncvd2@gmail.com
+                </span>
+            </div>
+        </div>
+
+        <!-- Trạm 3 -->
+
+
+
+
+        <div class="address-ncvdn2 col l-3 m-4 c-12">
+            <div class="address-module">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="footer-text-style">Trạm chẩn đoán và xét nghiệm III
+                    Số 88 CMT8, phường Bình Thủy, TP. Cần Thơ</span>
+            </div>
+
+            <div class="address-module">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span class="footer-text-style">
+                    Email: cdxn3ncvd2@gmail.com
+                </span>
+            </div>
+
+            <div class="address-module">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="footer-text-style">
+                    Liên hệ: Mr An - 0907 817 771
+                </span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- Hết footer -->
+
+
+
+    <!-- Xóa -->
+    <div class="footer-container">
+        <div class=" grid wide">
+            <div class="gradient-box"></div>
+            <div class="footer-content row kbcenter-x">
+                <div class="address-ncvdn2 col l-3 m-4 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i> <span class="footer-text-style">Trụ sở chính: 521/1
+                            Hoàng
+                            Văn
+                            Thụ, Phường Tân Sơn Nhất, TP. Hồ Chí
+                            Minh</span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span class="footer-text-style">
+                            Điện thoại: 028 66858963 - 028
+                            66536522
+                        </span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="footer-text-style">
+                            Email: cdxntw2@gmail.com
+                        </span>
+                    </div>
+                    <div class="address-module">
+                        <i class="fa-solid fa-globe"></i>
+                        <span class="footer-text-style">
+                            Website: <a class="remove-style-a" href="">https://cdxntw2.com.vn</a>
+                        </span>
+                    </div>
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Ms Hằng - 0909 054 567
+                        </span>
+                    </div>
+                </div>
+
+
+
+                <!-- trạm 1 -->
+
+                <div class="address-ncvdn2 col l-3 m-4 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="footer-text-style">Trạm Chẩn đoán và xét nghiệm I: Số 12 Trần Quý Cáp, phường
+                            Hải Châu, TP. Đà Nẵng</span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Mr Hùng - 0762 626 375
+                        </span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="footer-text-style">
+                            Email: tramcdxn1.ncvd2@gmail.com
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Trạm 2 -->
+
+
+
+
+                <div class="address-ncvdn2 col l-3 m-4 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="footer-text-style">Trạm chẩn đoán và xét nghiệm II
+                            Số 36 Phạm Hùng, phường Tân An,
+                            tỉnh Đắk Lắk</span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Mr Hùng - 0374 779 779
+                        </span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="footer-text-style">
+                            Email: tram02ncvd2@gmail.com
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Trạm 3 -->
+
+
+
+
+                <div class="address-ncvdn2 col l-3 m-4 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="footer-text-style">Trạm chẩn đoán và xét nghiệm III
+                            Số 88 CMT8, phường Bình Thủy, TP. Cần Thơ</span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span class="footer-text-style">
+                            Email: cdxn3ncvd2@gmail.com
+                        </span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Mr An - 0907 817 771
+                        </span>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <!-- Liên hệ các trang mạng xã hội -->
+
+                <a class="social-media-item" target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100066977236195#"><i
+                        class="fa-brands fa-square-facebook"></i>
+
+                    <span class="social-media-item-text">Facebook</span>
+                </a>
+
+                <i class="fa-brands fa-youtube"></i>
+
+            </div>
 
         </div>
     </div>
+
 </body>
 
 </html>
