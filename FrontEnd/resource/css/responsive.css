@@ -112,4 +112,26 @@
         display: none;
     }
 
+    .veterinary {
+        width: 97%;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .ncvd2 {
+        width: 100%;
+        left: 0;
+    }
+
+    .Ten-trung-tam {
+        font-size: 2rem;
+        padding: 5px;
+    }
+
+
+    .banner {
+        height: 75vh;
+    }
+
 }

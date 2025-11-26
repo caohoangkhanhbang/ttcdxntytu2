@@ -36,6 +36,26 @@ a {
 }
 
 @font-face {
+    font-family: 'Birthstone';
+    src: url('../font/Birthstone/Birthstone-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Ephesis';
+    src: url('../font/Ephesis/Ephesis-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Italianno';
+    src: url('../font/Italianno,WindSong/Italianno/Italianno-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'WindSong';
+    src: url('../font/Italianno,WindSong/WindSong/WindSong-Regular.ttf');
+}
+
+@font-face {
     font-family: 'museo moderno';
     src: url('../font/MuseoModerno/MuseoModerno-Italic-VariableFont_wght.ttf');
 }
@@ -152,7 +172,19 @@ ul {
 }
 
 .ncvd2 {
-    font-family: "Bungee Spice", sans-serif;
+    font-family: 'Birthstone';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    width: 60%;
+}
+
+.Ten-trung-tam {
+    background: linear-gradient(45deg, #0045ff, #00ffb1);
+    color: transparent;
+    background-clip: text;
+    font-size: 6rem;
 }
 
 .name {
@@ -647,6 +679,8 @@ ul {
     background: black;
     padding: 20px;
     color: white;
+    overflow: hidden;
+    position: relative;
 }
 
 .center-footer {
@@ -688,4 +722,98 @@ ul {
     to {
         transform: translate(-50%, 0);
     }
+}
+
+.tieu-de-gioi-thieu {
+    margin: 64px 0;
+    text-align: center;
+    font-family: 'WindSong';
+    font-size: 100px;
+    background: linear-gradient(45deg, #001bff, #00fff1);
+    color: transparent;
+    background-clip: text;
+    font-weight: 300;
+}
+
+.loi-gioi-thieu {
+    min-height: 100vh;
+    background: #fffcef;
+    padding: 30px;
+}
+
+.doan-van {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-family: 'Ephesis';
+}
+
+.title-to-chuc {
+    font-family: 'Italianno';
+}
+
+.phong-ban {
+    padding: 10px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.ds-phong-ban {
+    margin-left: 45px;
+}
+
+.khu-font {
+    font-family: 'Birthstone';
+}
+
+.trang-tri {
+    width: 18%;
+    position: absolute;
+    top: 46%;
+    right: 0;
+    animation: chuyenDong 4s linear infinite;
+}
+
+@keyframes chuyenDong {
+    0% {
+        transform: translateY(-30px);
+        transform: skewX(30px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+
+}
+
+.relative-gt {
+    position: relative;
+}
+
+.footer-right {
+    width: 241px;
+    height: 196px;
+    background: linear-gradient(45deg, #000dff, #0091ff);
+    position: absolute;
+    bottom: -40px;
+    left: -98px;
+    filter: blur(75px);
+    border-radius: 50%;
+}
+
+.footer-left {
+    width: 241px;
+    height: 196px;
+    /* background: linear-gradient(45deg, #000dff, #0091ff); */
+    background: linear-gradient(45deg, #ff0000, #006bff);
+    position: absolute;
+    bottom: -40px;
+    right: -98px;
+    filter: blur(75px);
+    border-radius: 50%;
 }
