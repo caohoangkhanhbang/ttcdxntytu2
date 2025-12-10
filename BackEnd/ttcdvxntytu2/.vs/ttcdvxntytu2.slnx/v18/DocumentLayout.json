@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\views\\tintuc\\tochuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\views\\tintuc\\tochuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\controllers\\tintuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\controllers\\tintuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|d:\\congviec\\trungtamchandoanvaxetnghiemthuytrunguongii\\websitettcdxntytu2\\backend\\ttcdvxntytu2\\ttcdvxntytu2\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6667DD7B-E9FF-430D-6EB1-72A4C2AFD869}|ttcdvxntytu2\\ttcdvxntytu2.csproj|solutionrelative:ttcdvxntytu2\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\wwwroot\\favicon.ico",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "ttcdvxntytu2\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-12-10T02:39:05.168Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ttcdvxntytu2\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T03:32:44.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ttcdvxntytu2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T03:32:39.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToChuc.cshtml",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\TinTuc\\ToChuc.cshtml",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Views\\TinTuc\\ToChuc.cshtml",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\TinTuc\\ToChuc.cshtml",
+              "RelativeToolTip": "ttcdvxntytu2\\Views\\TinTuc\\ToChuc.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T02:54:47.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TinTucController.cs",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Controllers\\TinTucController.cs",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Controllers\\TinTucController.cs",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Controllers\\TinTucController.cs",
+              "RelativeToolTip": "ttcdvxntytu2\\Controllers\\TinTucController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T02:51:18.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ttcdvxntytu2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAAAH4CAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T02:26:08.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GioiThieu.cshtml",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Home\\GioiThieu.cshtml",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Views\\Home\\GioiThieu.cshtml",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Home\\GioiThieu.cshtml",
+              "RelativeToolTip": "ttcdvxntytu2\\Views\\Home\\GioiThieu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T02:20:52.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ttcdvxntytu2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T02:19:31.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ttcdvxntytu2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CongViec\\TrungTamChanDoanVaXetNghiemThuYTrungUongII\\WebsiteTTCDXNTYTU2\\BackEnd\\ttcdvxntytu2\\ttcdvxntytu2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ttcdvxntytu2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T02:15:13.669Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

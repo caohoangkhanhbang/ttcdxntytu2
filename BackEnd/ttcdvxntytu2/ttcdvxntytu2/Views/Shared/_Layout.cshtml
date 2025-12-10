@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["title"]</title>
+    <link rel="shortcut icon" href="~/logo/logoncvd2.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/base.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+
+
+    <!-- Tải về -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Stack+Sans+Text:wght@200..700&display=swap"
+          rel="stylesheet">
+    <!-- Hết tải về -->
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="kbcenter">
+            <div class="menu">
+                <div class="logo-left">
+                    <a class="logo-ncvd" href="#">
+                        <img class="image-ncvd" src="~/logo/logoncvd2.png"
+                             alt="">
+                    </a>
+                </div>
+                <div class="menu-right">
+                    <ul class="menu-home">
+                        <a class="menu-direction" asp-controller="" asp-action="Index"">
+                        <li>Trang chủ</li>
+                        </a>
+                        <a class="menu-direction" asp-action="gioithieu">
+                        <li>Giới thiệu</li>
+                        </a>
+                        <a class="menu-direction" asp-action="GioiThieu">
+                        <li>Hoạt động</li>
+                        </a>
+                        <a class="menu-direction" asp-action="">
+                        <li>Khách hàng</li>
+                        </a>
+                        <a class="menu-direction" asp-action="">
+                        <li>Tin tức</li>
+                        </a>
+                        <a class="menu-direction" asp-action="">
+                        <li>Hỏi đáp</li>
+                        </a>
+                        <a class="menu-direction" asp-action="">
+                        <li>Liên hệ</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+
+    </div>
+
+    @RenderBody()
+
+
+
+    <div class="container-text-color-standard">
+        <h1 class="text-color-standard">
+            Địa chỉ trụ sở chính - Trung tâm Chẩn đoán và Xét nghiệm Thú y Trung ương II
+        </h1>
+    </div>
+    <div class="map-container">
+        <iframe class="grid"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15984.765590201778!2d106.6697357713945!3d10.794649095477697!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529005de75ba7%3A0xafd1963d8ddc780e!2zVHJ1bmcgdMOibSBDaOG6qW4gxJFvw6FuIHbDoCBYw6l0IG5naGnhu4dtIFRow7ogeSBUcnVuZyDGsMahbmcgSUk!5e1!3m2!1svi!2s!4v1762305074724!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+    </div>
+
+    <!-- footer -->
+    <div class="kbcontainer">
+        <div class="grid wide">
+            <div class="row center-footer">
+
+                <div class="address-ncvdn2 l-2-4 m-6 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i> <span class="footer-text-style">
+                            Trụ sở chính: 521/1
+                            Hoàng
+                            Văn
+                            Thụ, Phường Tân Sơn Nhất, TP. Hồ Chí
+                            Minh
+                        </span>
+                    </div>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span class="footer-text-style">
+                            Điện thoại: 028 66858963 - 028
+                            66536522
+                        </span>
+                    </div>
+
+                    <a class="link-footer" href="mailto:cdxntw2@gmail.com">
+                        <div class="address-module">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="footer-text-style">
+                            </span>
+                            Email: cdxntw2@gmail.com
+                        </div>
+                    </a>
+
+                    <a class="remove-style-a link-footer" href="">
+                        <div class="address-module">
+                            <i class="fa-solid fa-globe"></i>
+                            <span class="footer-text-style">
+                                Website: https://cdxntw2.com.vn
+                            </span>
+                        </div>
+                    </a>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Ms Hằng - 0909 054 567
+                        </span>
+                    </div>
+                </div>
+
+                <!-- trạm 1 -->
+
+                <div class="address-ncvdn2  l-2-4 m-6 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="footer-text-style">
+                            Trạm Chẩn đoán và xét nghiệm I: Số 12 Trần Quý Cáp, phường
+                            Hải Châu, TP. Đà Nẵng
+                        </span>
+                    </div>
+
+                    <a class="link-footer" href="mailto:tramcdxn1.ncvd2@gmail.com">
+                        <div class="address-module">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="footer-text-style">
+                            </span>
+                            Email: tramcdxn1.ncvd2@gmail.com
+                        </div>
+                    </a>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Mr Hùng - 0762 626 375
+                        </span>
+                    </div>
+
+
+
+
+                </div>
+
+                <!-- Trạm 2 -->
+
+
+
+
+                <div class="address-ncvdn2  l-2-4 m-6 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="footer-text-style">
+                            Trạm chẩn đoán và xét nghiệm II:
+                            Số 36 Phạm Hùng, phường Tân An,
+                            tỉnh Đắk Lắk
+                        </span>
+                    </div>
+
+                    <a class="link-footer" href="mailto:tram02ncvd2@gmail.com">
+                        <div class="address-module">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="footer-text-style">
+                            </span>
+                            Email: tram02ncvd2@gmail.com
+                        </div>
+                    </a>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Mr Hùng - 0374 779 779
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+                <!-- Trạm 3 -->
+
+
+
+
+                <div class="address-ncvdn2  l-2-4 m-6 c-12">
+                    <div class="address-module">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="footer-text-style">
+                            Trạm chẩn đoán và xét nghiệm III:
+                            Số 88 CMT8, phường Bình Thủy, TP. Cần Thơ
+                        </span>
+                    </div>
+
+
+                    <a class="link-footer" href="mailto:cdxn3ncvd2@gmail.com">
+                        <div class="address-module">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="footer-text-style">
+                            </span>
+                            Email: cdxn3ncvd2@gmail.com
+                        </div>
+                    </a>
+
+                    <div class="address-module">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="footer-text-style">
+                            Liên hệ: Mr An - 0907 817 771
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-left"></div>
+            <div class="footer-right"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Hết footer -->
+
+    @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false) *@
+</body>
+
+</html>

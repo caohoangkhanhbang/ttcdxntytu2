@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ttcdvxntytu2.Controllers.TinTucController",
+    "Method": "TinTuc",
+    "RelativePath": "api/TinTuc",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
